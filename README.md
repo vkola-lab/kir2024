@@ -1,5 +1,6 @@
 # A web-based tool for real-time adequacy assessment of kidney biopsies
-This the official repository for Biopsy adequacy assessment tool using MedSAM model.
+
+This the official repository for the biopsy adequacy assessment tool.
 
 
 ## Installation 
