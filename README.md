@@ -63,7 +63,7 @@ To ensure our segmentation model is widely accessible for onsite kidney biopsy a
 Once registered and logged in, users can upload digitized square images of biopsy cores in common image formats such as JPG, PNG, and TIFF. The application provides a feature for delineating the region of interest, allowing users to crop the biopsy area in a square image format and exclude extraneous background elements. This functionality focuses the analysis on the biopsy itself, improving the quality of the output and enhancing user engagement.
 Upon confirming and submitting an image for analysis, the platform generates two key outputs: (1) an annotated image highlighting the cortex area within the core biopsy, and (2) a calculated percentage representing the cortex area in relation to the entire core biopsy image. The software is capable of handling various scenarios, including digitized biopsy images that may entirely lack cortex or contain the full kidney cortex. The overal structure of the web-based application is demonstrated below:
 
-<img src = "https://github.com/me-ahangaran/Biopsy-Adequacy-Assessment-Tool/blob/main/Figure%201.svg">
+<img src = "https://github.com/vkola-lab/kir2024/blob/main/Figure%201.svg">
 
 ## Reference
 For more information read the corresponding article here: https://www.medrxiv.org/content/10.1101/2024.02.01.24302147v2
