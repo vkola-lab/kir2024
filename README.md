@@ -56,3 +56,25 @@ python MedSAM_Inference.py -i ./data/Test -o ./ -chk work_dir/MedSAM/medsam_2023
 ## Run the model
 After preprocessing and creating checkpoints, run the file run.py. The annotation images will be created on "/Annotated_images" folder and a csv file
 including columns: image ID, actual cortex percentage, predicted cortex percentage, and error of prediction is created in data.csv in the current folder.
+
+
+## Web development framework
+To ensure our segmentation model is widely accessible for onsite kidney biopsy adequacy estimation, we have developed it into a user-friendly web-based application on http://www.biopsyadequacy.org. The tool features an intuitive interface compatible with modern web browsers such as Google Chrome and Firefox. To ensure security and manageability, the application requires user registration. New users are guided through an account creation process with verifiable credentials, while returning users can easily log in with their existing credentials.
+Once registered and logged in, users can upload digitized square images of biopsy cores in common image formats such as JPG, PNG, and TIFF. The application provides a feature for delineating the region of interest, allowing users to crop the biopsy area in a square image format and exclude extraneous background elements. This functionality focuses the analysis on the biopsy itself, improving the quality of the output and enhancing user engagement.
+Upon confirming and submitting an image for analysis, the platform generates two key outputs: (1) an annotated image highlighting the cortex area within the core biopsy, and (2) a calculated percentage representing the cortex area in relation to the entire core biopsy image. The software is capable of handling various scenarios, including digitized biopsy images that may entirely lack cortex or contain the full kidney cortex. The overal structure of the web-based application is demonstrated below:
+
+<img src = "https://github.com/me-ahangaran/Biopsy-Adequacy-Assessment-Tool/blob/main/Figure%201.svg">
+
+## Reference
+For more information read the corresponding article here: https://www.medrxiv.org/content/10.1101/2024.02.01.24302147v2
+```bash
+@article{ahangaran2024web,
+  title={A web-based tool for real-time adequacy assessment of kidney biopsies},
+  author={Ahangaran, Meysam and Sun, Emily and Le, Khang and Sun, Jiawei and Wang, William M and Tan, Tian Herng and Burdine, Lyle J and Dvanajscak, Zeljko and Cassol, Clarissa A and Sharma, Shree and others},
+  journal={medRxiv},
+  pages={2024--02},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory Press}
+}
+```
+
