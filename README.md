@@ -1,7 +1,6 @@
-# A web-based tool for real-time adequacy assessment of kidney biopsies
+# Pilot study of a web-based tool for real-time adequacy assessment of kidney biopsies
 
-This the official repository for the biopsy adequacy assessment tool.
-
+This work is published in _Kidney International Reports_ (https://www.kireports.org/article/S2468-0249(24)01795-9/fulltext).
 
 ## Installation 
 1. Create a virtual environment `conda create -n medsam python=3.10 -y` and activate it `conda activate medsam`
