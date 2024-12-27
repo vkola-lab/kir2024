@@ -64,5 +64,3 @@ Upon confirming and submitting an image for analysis, the platform generates two
 
 <img src = "https://github.com/vkola-lab/kir2024/blob/main/Figure%201.svg">
 
-```
-
